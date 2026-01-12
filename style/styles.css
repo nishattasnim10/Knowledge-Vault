@@ -187,6 +187,7 @@ h1 .greenT{
     width: 1600px;
     height: 448px;
     margin-top: 0px;   
+    overflow: hidden;
 }
 
 .note-text {
@@ -220,12 +221,13 @@ h1 .greenT{
     gap: 24px;
     margin-top: 44px;
     background-color: #ffffff;  
+    
 }
 
 .card-img{
     width: 60px;
     height: 60px;
-    margin-top: 44px;
+    margin-top: 70px;
 }
 
 .cards h2{
@@ -245,32 +247,80 @@ h1 .greenT{
 .card-1, .card-2, .card-3, .card-4{
     width: 320px;
     height: 300px;  
+    border-radius: 8px;
     text-align: center;
     align-items: center;
     box-shadow: 0px 4px 16px #0000001A;  
 }
-/*.card-2{
-    width: 320px;
-    height: 300px;  
-    text-align: center;
-    align-items: center;
-    box-shadow: 0px 4px 16px #0000001A;  
-}
-.card-3{
-    width: 320px;
-    height: 300px;  
-    text-align: center;
-    align-items: center;
-    box-shadow: 0px 4px 16px #0000001A;  
-}
-.card-4{
-    width: 320px;
-    height: 300px;  
-    text-align: center;
-    align-items: center;
-    box-shadow: 0px 4px 16px #0000001A;  
-}
-*/
+/*---Brain Section---*/
 
+#brain{
+    width: 1600px;
+    height: 840px;
+    margin: 0px;
+    background-color: #ffffff;
+}
+.brain-content{
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 120px;
+    gap: 10px;
+}
 
+#bg{
+    width: 600px;
+    height: 600px;
+}
+
+.brain-text{
+    width: 700px;
+    height: 396px;
+    margin-left: 60px;
+    margin-top: 102px;
+    }
+
+    .overline{
+        color: #30B868;
+        font-size: 16px; 
+        font-weight: 600;  
+    }
+    .brain-text h2{
+        font-size: 48px;
+        font-weight:bold;
+        color: #001931;
+        margin-top: 16px;  
+    }
+
+    .brain-text p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #627382;
+        margin-top: 16px;  
+    }
+
+    .brain-text ul{
+        margin-top: 40px;  
+        list-style: none;
+    }
+
+    .solution-list li {
+    position: relative;
+    display: flex;
+    padding-left: 6px; 
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 6px;
+    color: #001931;
+}
+    .solution-list li::before{
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-image: url("../assets/CheckCircle.png");
+        background-size: contain;
+         background-repeat: no-repeat;
+    }
 
