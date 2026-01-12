@@ -9,6 +9,10 @@
   font-optical-sizing: auto;
  
 }
+body {
+  overflow-x: hidden;
+}
+
 
 header{
     background-color: #ffffff;
@@ -62,10 +66,13 @@ a.btn:hover {
     color: #30B868;
 }
 
+/*---Banner Section---*/
+
+
 .banner{
     margin-top: 0px;
     width: 1600px;
-    height: 600px;
+    height: 674px;
     background-image: url("../assets/hero-bg.png");
     display: flex;
     justify-content: center;
@@ -100,7 +107,7 @@ a.btn:hover {
  
 }
 
-h1{
+.banner h1{
     margin: 16px;
     font-size: 72px;
     font-weight: 700;
@@ -110,7 +117,7 @@ h1{
 h1 .greenT{
     color: #30B868;
 }
-p{
+.banner p{
     font-size: 18px;
     color: #ffffff;
 }
@@ -166,12 +173,104 @@ p{
 
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-
-    
+    gap: 8px;  
 }
 .btn-2:hover {
     background-color: #000502;
     border: #10ee69 2px solid;
     
 }
+
+/*---Note Section---*/
+
+#notes{
+    width: 1600px;
+    height: 448px;
+    margin-top: 0px;   
+}
+
+.note-text {
+    width: 1360px;
+    height: 130px;
+    margin-left: 120px;  
+    text-align: center;
+    padding-top: 0px;
+}
+.note-text h2{
+    padding-top: 42px; 
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;    
+}
+
+.note-text p{
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 400;
+    color: #627382; 
+    
+}
+
+/*---Cards Section---*/
+.cards{
+    width: 1360px;
+    height: 300px;
+    margin-left: 120px;
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+    background-color: #ffffff;  
+}
+
+.card-img{
+    width: 60px;
+    height: 60px;
+    margin-top: 44px;
+}
+
+.cards h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-top: 16px;
+}
+
+.cards p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-top: 16px;
+}
+
+.card-1, .card-2, .card-3, .card-4{
+    width: 320px;
+    height: 300px;  
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 16px #0000001A;  
+}
+/*.card-2{
+    width: 320px;
+    height: 300px;  
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 16px #0000001A;  
+}
+.card-3{
+    width: 320px;
+    height: 300px;  
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 16px #0000001A;  
+}
+.card-4{
+    width: 320px;
+    height: 300px;  
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 16px #0000001A;  
+}
+*/
+
+
+
