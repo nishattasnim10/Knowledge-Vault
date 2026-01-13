@@ -9,11 +9,7 @@
   font-optical-sizing: auto;
  
 }
-body {
-  overflow-x: hidden;
-}
-
-
+/*---Header Section---*/
 header{
     background-color: #ffffff;
     padding-top: 0px;  
@@ -80,11 +76,6 @@ a.btn:hover {
     text-align: center;
 }
 
-/*.banner-content{
-    margin-left:120px ;
-    margin-top: 115.5px ;
-    
-}*/
 .early-access{
     display:inline-flex;
     align-items: center;
@@ -142,20 +133,18 @@ h1 .greenT{
 
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    
-}
-
-.btn-1:hover {
-    background-color: #115f2f;
-    border: #e4f3ea 2px solid;
-    
+    gap: 10px;  
 }
 .btn-1 .arrow{
     width: 20px;
     height: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
+}
+
+.btn-1:hover {
+    background-color: #115f2f;
+    border: #e4f3ea 2px solid;
     
 }
 
@@ -180,6 +169,11 @@ h1 .greenT{
     border: #10ee69 2px solid;
     
 }
+
+body {
+  overflow-x: hidden;
+}
+
 
 /*---Note Section---*/
 
@@ -259,6 +253,7 @@ h1 .greenT{
     height: 840px;
     margin: 0px;
     background-color: #ffffff;
+    border: #ffffff 1px solid;
 }
 .brain-content{
     width: 1360px;
@@ -324,3 +319,175 @@ h1 .greenT{
          background-repeat: no-repeat;
     }
 
+    /*---thinking Section---*/
+
+    #think{
+    width: 1600px;
+    height: 506px;
+    margin-top: 0px;
+    }
+
+    .think-content{
+        width: 1360px;
+        height: 384px;
+        margin-left: 120px;
+        margin-top: 0px;
+        text-align: center;
+        background-color: #F7F6F2;
+    }
+
+    .content-heading{
+        align-items: center;
+    }
+
+    .think-content h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: #001931;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+    .think-content p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #627382;
+        margin-top: 16px;  
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .think-btn{
+        align-items: center;
+        margin-top: 24px;     
+    }
+
+    .btn-4{
+        background-color: #30B868;
+        border-radius: 4px;
+        font: 16px;
+        font-weight: semi-bold;
+        color: #ffffff;
+        border-style: none;
+        font-size: 16px;
+        padding: 12.5px 16px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-4 .arrow{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn-4:hover {
+    background-color: #2e834d;
+    border: #ffffff 2px solid;
+
+}
+
+.think-btn h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-top: 16px;
+}
+
+/*---Footer Section---*/
+
+#footer{
+    width: 1600px;
+    height: 348px;
+    margin: 0px;
+    background-color: #001931;
+    border: #001931 1px solid;
+}
+
+.footer-element{
+    width: 1360px;
+    height: 64px;
+    margin-left: 120px;
+    margin-top: 120px;
+    display: flex;
+    gap: 80px;
+    
+}
+
+.footer-logo{
+    width: 139px;
+    height: 60px;
+}
+
+.footer-menu{
+     flex-direction: column;
+     color: #ffffff;
+     margin-left: 900px;
+}
+
+.footer-menu h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding-top: 16px;
+    margin: 0;
+    display: flex;
+    gap: 12px;
+}
+
+.footer-menu ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+   
+}
+
+#x {
+    background-image: url("../assets/x.png"); 
+    width: 20px;
+    height: 20px;
+}
+#in {
+    background-image: url("../assets/in.png");
+    width: 21px;
+    height: 21px;
+}
+
+#fb {
+    background-image: url("../assets/fb.png");
+    width: 20px;
+    height: 20px;
+}
+
+.footer-bottom{
+    width: 1360px;
+    height: 54px;
+    margin-left: 120px;
+    margin-top: 80px;
+    text-align: center;
+
+}
+.footer-line {
+    border: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.1); 
+    
+}
+.footer-bottom p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px; 
+    font-size: 16px;
+    color: #fafafa;
+    
+}
